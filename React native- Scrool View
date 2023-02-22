@@ -1,0 +1,29 @@
+import React from 'react';
+import { ScrollView, Text, View } from 'react-native';
+
+const ScrollViewExample = () => {
+  return (
+    <ScrollView>
+      <View style={{ backgroundColor: '#ccc', padding: 20 }}>
+        <Text style={{ fontSize: 20 }}>First item</Text>
+      </View>
+      <View style={{ backgroundColor: '#aaa', padding: 20 }}>
+        <Text style={{ fontSize: 20 }}>Second item</Text>
+      </View>
+      <View style={{ backgroundColor: '#888', padding: 20 }}>
+        <Text style={{ fontSize: 20 }}>Third item</Text>
+      </View>
+      <View style={{ backgroundColor: '#666', padding: 20 }}>
+        <Text style={{ fontSize: 20 }}>Fourth item</Text>
+      </View>
+      <View style={{ backgroundColor: '#444', padding: 20 }}>
+        <Text style={{ fontSize: 20 }}>Fifth item</Text>
+      </View>
+      <View style={{ backgroundColor: '#222', padding: 20 }}>
+        <Text style={{ fontSize: 20 }}>Sixth item</Text>
+      </View>
+    </ScrollView>
+  );
+};
+
+export default ScrollViewExample;
